@@ -18,7 +18,7 @@ graph TD
     Controller -->|manipulate| Domain
     Domain -->|uses| FakeModel[Fake Model]
     Controller -->|business logic| Domain
-    Domain -->|interacts with| FakeDB[Fake Database]
+    Domain -->|interacts with| FakeDB[Fake Persistency]
     FakeDB -->|data management| FakeModel
     FakeModel -->|data structure| Controller
 
