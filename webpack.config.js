@@ -14,7 +14,7 @@ module.exports = {
     plugins: [
         new CopyPlugin({
             patterns: [
-                { from: 'images', to: 'images' } // copies all files from src/public to dist/public
+                { from: 'images', to: 'images' }
             ]
         })
     ],

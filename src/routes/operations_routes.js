@@ -24,8 +24,8 @@ const router = express.Router();
  *               example: Server is shutting down...
  */
 router.get('/stop', (req, res) => {
-    res.send('Server is shutting down...');
     process.kill(process.pid, 'SIGTERM'); // Emit SIGTERM to trigger graceful shutdown
+    res.send('Server is shutting down...');
 });
 
 
