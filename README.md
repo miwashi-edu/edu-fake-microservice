@@ -82,3 +82,7 @@ Controller is the controller in WebMVC. Its major concern is the flow of the app
 ### Persistency
 
 > No real persistency service is provided. It is faked in [domain]_handler.js
+
+### Config
+
+> Reads the environment and allows for DRY and named import of environment variables.
