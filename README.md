@@ -50,6 +50,7 @@ npm start
 6. Edit mushrom_routes.js so it that uses mushrom_routes.js
 7. Edit mushrom_routes.js so that its Swagger YAML provides a good swagger API. (Copy the code into an AI and ask it to port it to a new [domain]_routes.js)
 8. Import and add, mushrom_routes in server.js.
+9. Add custom images by copying them to images (Use http://localhost:PORT/list-images to copy url's for use in fake model).
 
 ## Architecture
 
