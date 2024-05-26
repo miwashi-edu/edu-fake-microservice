@@ -32,6 +32,7 @@ graph TD
 ## Use
 
 ```bash
+cd ws
 git clone https://github.com/miwashi-edu/edu-fake-microservice.git
 cd edu-fake-microservice
 #If you plan to use a custom port,
