@@ -33,7 +33,7 @@ app.use('/images', imageRoutes);
 app.use('/operations', operationsRouter);  // Integrate the operations routes
 
 // Serve images as static content
-app.use('/images', express.static(path.join(__dirname, '../images')));
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 // Catch-all route to redirect to API docs
 app.use('*', (req, res) => {

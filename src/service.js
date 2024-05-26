@@ -1,8 +1,9 @@
-const app = require('./server'); // Ensure correct relative path
-const PORT = process.env.PORT || 3000;
+const app = require('./server');
+const { PORT } = require('./config');
 
 const server = app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
+    console.log(`Ctrl-C to stop server!`);
 });
 
 // Optional: Handle process termination signals to gracefully shut down the server
