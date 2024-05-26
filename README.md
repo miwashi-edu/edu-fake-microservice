@@ -48,7 +48,7 @@ npm start
 4. Edit mushroms_controller.js so that it uses mushrom_handler.js
 5. Copy for example ./src/routes/book_routes.js to ./src/routes/mushrom_routes.js
 6. Edit mushrom_routes.js so it that uses mushrom_routes.js
-7. Edit mushrom_routes.js so that its Swagger YAML provides a good swagger API.
+7. Edit mushrom_routes.js so that its Swagger YAML provides a good swagger API. (Copy the code into an AI and ask it to port it to a new [domain]_routes.js)
 8. Import and add, mushrom_routes in server.js.
 
 ## Architecture
