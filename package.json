@@ -1,0 +1,26 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/service.js",
+    "start:daemon": "pm2 start src/service.js --name testserver",
+    "stop": "pm2 stop testserver",
+    "info": "pm2 info testserver",
+    "list": "pm2 list",
+    "dev": "node --trace-warnings --watch ./src/service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "forever": "^4.0.3"
+  }
+}
